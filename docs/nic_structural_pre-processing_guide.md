@@ -84,7 +84,7 @@ To check the output of this script, open the MNI template and the output brain i
 
 This script normalizes the input image brain to a standardized template so that meaningful comparisons can be made across subjects with differing brain shapes and sizes.  The FSL tool `flirt` runs an initial affine registration followed by the `fnirt` tool which runs a non-linear localized registration of the input anatomical image to a standard MNI template `MNI152_T1_0.8mm`, then applies the final registration matrix via `applywarp` to align the input image brain structures to those of the standard template.
 
-References:
+### References:
 
 [flirt](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FLIRT)
 
