@@ -80,7 +80,7 @@ cd /data/qb/Atlanta/projects/<projectID>/code/<pipeline>/
 
 To check the output of this script, open the MNI template and the output brain image.  The axial and saggital views are most helpful.  Check to see if anatomical structures are located in the same positions (ventricles, corpus callosum etc…).  This comparison can be done by either overlaying the images in `fsleyes` and adjusting the opacity to view the images back and forth or using multiple sessions in AFNI and selecting structures with the crosshairs.
 
-## What this script does:
+### What this script does:
 
 This script normalizes the input image brain to a standardized template so that meaningful comparisons can be made across subjects with differing brain shapes and sizes.  The FSL tool `flirt` runs an initial affine registration followed by the `fnirt` tool which runs a non-linear localized registration of the input anatomical image to a standard MNI template `MNI152_T1_0.8mm`, then applies the final registration matrix via `applywarp` to align the input image brain structures to those of the standard template.
 
