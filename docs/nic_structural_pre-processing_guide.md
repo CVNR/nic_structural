@@ -1,5 +1,7 @@
 # NIC Structural Pre-Processing Guide
 
+Below are some descriptions of what each pre-processing script in a typical NIC functional pipeline is doing along with some NIC suggested steps to review the output. Your research group may have additional data review steps, please communicate with your PI.
+
 
 ## De-oblique and re-orientation
 

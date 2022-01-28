@@ -24,6 +24,7 @@ DERIV_DIR=${PROJECT_DIR}/derivatives/${PIPELINE}/${SUBJECT}/${SESSION}/anat
 
 IMG_IN=${SUBJECT}_${SESSION}_T1w
 
+
 mkdir -p ${DERIV_DIR}
 
 echo "Running deoblique of ${IMG_IN}.nii.gz"
